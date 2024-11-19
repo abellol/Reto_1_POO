@@ -128,15 +128,6 @@ Para la solución de este problema, se utilizaron los diccionarios; una herramie
 
 ```python
 def same_letters(list_words: list) -> list:
-  """
-  Function to find the words with the same letters in a list.
-
-  Args:
-    list_words: A list with words (list)
-
-  Returns:
-    The function returns a list with the words that have the same letters.
-  """
   words = {} # empty dictionary to save the words with the same lexicographic order
   result = [] # empty list to save the words with the same letters
 
